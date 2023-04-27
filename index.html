@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Evolution Fitness</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="stylesheet" type="text/css" href="evolution.css"> -->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css">
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ --><link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="icon" type="x-icon" href="images/evolutionicon3.jpg">
+	<style type="text/css">
+
+		*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+			/*font-family: 'Anton', sans-serif;*/
+			/*cursor: url("images/evolutionicon.png"), auto;*/
+
+		}
+		.header
+		{
+			background-color: black;
+			width: 100%;
+			height: 90px;
+			display: flex;
+			justify-content: center;
+			color: white;
+			/*cursor: url("images/evolutionicon.png");*/
+		}
+
+		.navbar
+		{
+			color: #AE3535;
+			width: 45%;
+			display: flex;
+			flex-direction: row;
+			word-spacing: 1px;
+			letter-spacing: .5px;
+		}
+
+		.navbar ul
+		{ 
+			display: flex;
+		    list-style: none;
+	    }
+
+		.navbar ul li
+		{
+			padding: 30px;
+			margin-left: 30px;
+			font-family: 'Anton', sans-serif;
+		}
+
+		.navbar ul li a
+		{
+			text-decoration: none;
+			/*color: #DDAC17;*/
+			color: #AE3535;
+		}
+
+		.navbar ul li a:hover
+		{
+			/*color: white;*/
+			color: white;
+		}
+
+		 #box
+		 {
+		 	width: 100%;
+		 	height: 60px;
+		 	line-height: 60px;
+		 	/*border: 1px solid red;*/
+		 	box-sizing:border-box;
+		 	background-color: white;
+		 	display: inline-block;
+		 	color: black;
+		 }
+
+		 #box ul
+		 {
+		 	width: 20%;
+		 	height: 60px;
+		 	box-sizing:border-box;
+		 	/*background-color: #8EC837;*/
+		 	text-decoration: none;
+		 	float: right;
+		 }
+
+		 #box ul li
+		 {
+		 	display: inline-block;
+		 	padding: 10px;
+		 	text-align: right;
+		 	line-height: 1;
+		 }
+
+		 #box li a
+		 {
+		 	text-decoration: none;
+		 	color: black;
+		 }
+
+		#back
+		{
+			background: url(images/background3.jpg);
+			background-size: cover;
+			width: 100%;
+			height: 80vh;
+			background-repeat: no-repeat;
+			border: 1px solid;
+		}
+
+		.box
+		{
+			width: 45%;
+			height: 350px;
+			/*border: 1px solid red;*/
+			display: block;
+			margin-top: 100px; 
+			margin-left: 50px;
+			text-align: center;
+
+/*			animation-name: bixby;
+			anima*/
+
+		}
+
+		.box span:hover
+		{
+			color: black;
+			/*background-color: red;*/
+		}
+
+		.box2
+		{
+			width: 100%;
+			height: 100vh;
+			background-color: black;
+			font-family: EuclidCircularB,sans-serif;
+			/*border: 1px solid white;*/
+		}
+
+		.minibox
+		{
+			width: 320px;
+			height: 270px;
+			background-color: #AE3535;
+			color: black;
+			display: inline-block;
+			margin: 20px;
+			padding: 30px;
+			border-radius: 10px;
+			text-align: center;
+			font-family: 'Anton', sans-serif;
+
+		}
+
+		.minibox i:hover
+		{
+			color: white;
+		}
+
+		.minibox:hover
+		{
+			color: white;
+		}
+
+		.box3
+		{
+			width: 100%;
+			height: 850px;
+			background-color: black;
+			color: white;
+		}
+
+		.minibox2
+		{
+			width: 300px;
+			height: 600px;
+			background-color: #AE3535;
+			/*position: absolute;*/
+			color: black;
+			/*text-align: center;*/
+			display: inline-block;
+			word-spacing: 1px;
+			letter-spacing: .5px;
+			padding: 5px;
+			margin: 20px;
+			border-radius: 10px;
+			style="font-family: EuclidCircularB,sans-serif
+		}
+
+		.minibox2:hover
+		{
+			/*color: white;*/
+			width: 340px;
+			height: 650px;
+			/*text-align: center;*/
+		}
+
+		.box4
+		{
+			width: 100%;
+			height: 170px;
+			text-align: center;
+			word-spacing: 1px;
+			letter-spacing: .5px;
+			/*border: 1px solid red;*/
+			
+
+		}
+
+		.box5
+		{
+			width: 100%;
+			height: 1821px;
+			background-color: lightgrey;
+			text-align: center;
+
+		}
+
+		.box6
+		{
+			width: 100%;
+			height: 200px;
+			background-color: black;
+			color: white;
+			text-align: center;
+			word-spacing: 1px;
+			letter-spacing: .5px;
+			border: 1px solid black;
+			border-bottom: 1px solid white;
+		}
+
+		.box7
+		{
+			width: 100%;
+			height: 330px;
+			word-spacing: 1px;
+			letter-spacing: .5px;
+			background-color: black;
+			font-family: 'Anton', sans-serif;
+			/*text-align: center;*/
+			border-bottom: 1px solid white;
+
+		}
+
+		.box7 td
+		{
+			/*border: 1px solid red;*/
+			height: 310px;
+		}
+
+		.box7 ul
+		{
+			list-style-type: none;
+		}
+
+		.box7 a
+		{
+			text-decoration: none;
+			color: white;
+
+		}
+
+		.box7 a:hover
+		{
+			color: #AE3535;
+		}
+
+		.box8
+		{
+			width: 100%;
+			height: 30px;
+			background-color: #AE3535;
+			text-align: center;
+			padding-top: 10px;
+			font-size: 10px;
+		}
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+	<p id="top"></p>
+	<div id="box">
+		&nbsp;&nbsp;<i class="fas fa-mobile-alt">&nbsp;&nbsp;+91 99XXX XXX44</i>&nbsp;&nbsp;&nbsp;&nbsp;
+		<i class="far fa-envelope rgtspace-5">&nbsp;&nbsp; info.evolutionfitness@gmail.com</i>
+
+		<ul>
+			<li><a href="#"><i class="fas fa-home"></i></a></li>
+			<li><a href="#"><i class="far fa-life-ring"></i></a></li>
+			<li><a href="#"><i class="fas fa-sign-in-alt"></i></a></li>
+			<li><a href="#"><i class="fas fa-edit"></i></a></li>
+			<li><a href="#"><i class="fas fa-search"></i></a></li>
+		</ul>
+	</div>
+	<div class="header">
+		<h2 class="navbar"><img src="images/evolutionicon3.jpg" width="100px" height="90px;"><font style="margin-top: 15px; color: #AE3535;">Evolution<br>Fitness</font></h2>
+		<div class="navbar">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+	<div style="text-align: center; font-family: vladimir script; padding: 10px; font-weight: bold; font-size: 40px;">evolutionfitness.com</div>
+
+	<div id="back">
+		<div class="box"><font color="white" size="40px">ADDICTED TO<br> GETTING<br></font> <font color="#AE3535" size="40px">STRONGER.</font>
+			<br><br><br>
+		<span style="border: 1px solid #AE3535; border-radius: 14px; color: white; background-color: #AE3535; padding: 10px;"><a href="#" style="text-decoration: none; color: white;">Enroll Today</a></span>
+		<span style="border: 1px solid #AE3535; border-radius: 14px; color: white; background-color: #AE3535; padding: 10px;"><a href="#" style="text-decoration: none; color: white;">Get in Touch</a></span>
+		</div>
+	</div>
+
+	<div class="box2">
+		<div style="color: white; text-align: center;"><h1 style="font-size: 50px; font-family: EuclidCircularB,sans-serif">How<font color="#AE3535"> Evolution</font> Works</h1><br><p style="font-size: 25px; font-family: EuclidCircularB,sans-serif">Evolution Fitness is a network of gyms, pools, spas and health and fitness apps.<br> With one pass, you can access fitness in exactly the way you want.</p></div>
+		<br>
+		<br>
+		<br>
+		<div class="minibox" style="margin-left: 100px;"><i class="fal fa-map-marked-alt fa-3x"></i>
+			<br><br>
+			<h2>Gyms Wherever You are</h2><br>
+			<p>Search to find gyms near<br> you and book easily<br> online.</p>
+		</div>
+		<div class="minibox"><i class="fad fa-ticket fa-3x"></i>
+			<br><br>
+			<h2>A pass to suit you</h2><br>
+			<p>A one-off visit, multi-gym<br> access with one pass, or a<br> full gym membership.</p>
+		</div>
+		<div class="minibox"><i class="fas fa-running fa-3x"></i>
+			<br><br>
+			<h2>Easy and flexible</h2><br>
+			<p>Book easily online or in the<br> app. Cancel anytime - you're<br> in control.</p>
+		</div>
+		<!-- <button>Explore our passes</button> -->
+
+	</div>
+	<div class="box3"><h1 style="font-family: EuclidCircularB,sans-serif; font-size: 60px;">Our Pass Types</h1><br>
+	 <div class="minibox2" style="margin-left: 140px;"><h1 style="font-size: 50px;">Day Pass</h1>
+          <p>Take it one visit at a time</p>
+          <br><br><br>
+          <p>FROM / <font color="white" size="5px">Rs.400/-</font>/ PER VISIT</p>
+          <br>
+          <hr>
+          <br>
+          <ul style="list-style-type: none;">
+            <li><!-- <img src="images/tick.svg"> --><i class="fas fa-check-circle fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;Pay as you go</li><br>
+            <li><!-- <img src="images/tick.svg"> --><i class="fas fa-check-circle fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;30 days to use it</li><br>
+            <li><!-- <img src="images/tick.svg"> --><i class="fas fa-check-circle fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;Competitive rates</li>
+          </ul>
+          <br><br>
+          <hr>
+          <br>
+          <h1>Complete flexibility</h1>
+          <p>Just pay when you go</p>
+          <br>
+          <input type="button" name="Button" value="VISIT" style="width: 200px; height: 40px; margin-left: 45px; background-color: black; border-color: black; color: white;">
+      </div>
+      <div class="minibox2"><h1 style="font-size: 50px;">Membership</h1>
+          <p>Join a gym directly via Evolution</p>
+          <br><br><br>
+          <p>FROM /<font color="white" size="5px"> Rs.2500/-</font>/ PER MONTH</p>
+          <br>
+          <hr>
+          <br>
+          <ul style="list-style-type: none;">
+            <li><!-- <img src="images/tick.svg"> --><i class="fas fa-check-circle fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;Price matched with gyms</li><br>
+            <li><!-- <img src="images/tick.svg"> --><i class="fas fa-check-circle fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;Unlimited visits each month</li><br>
+            <li><!-- <img src="images/tick.svg"> --><i class="fas fa-check-circle fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;Save 30% on Hussle day passes</li>
+          </ul>
+          <br><br>
+          <hr>
+          <br>
+          <h1>Best Value</h1>
+          <p>for single gym use</p>
+          <br>
+          <input type="button" name="Button" value="VISIT" style="width: 200px; height: 40px; margin-left: 45px; background-color: black; border-color: black; color: white;">
+      </div>
+      <div class="minibox2"><h1 style="font-size: 50px;">Monthly+</h1>
+          <p>Multiple gyms and fitness apps</p>
+          <br><br><br>
+          <p>FROM / <font color="white" size="5px">Rs.3000/-</font>/ PER MONTH</p>
+          <br>
+          <hr>
+          <br>
+          <ul style="list-style-type: none;">
+            <li><!-- <img src="images/tick.svg"> --><i class="fas fa-check-circle fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;Access the gym you want</li><br>
+            <li><!-- <img src="images/tick.svg"> --><i class="fas fa-check-circle fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;Unlimited visits</li><br>
+            <li><!-- <img src="images/tick.svg"> --><i class="fas fa-check-circle fa-2x"></i>&nbsp;&nbsp;&nbsp;&nbsp;No contract, cancel anytime</li>
+          </ul>
+          <br><br>
+          <hr>
+          <br>
+          <h1><i class="fab fa-yoast" style="">OGA</i></h1>
+          <p>Zumba</p>
+          <br>
+          <input type="button" name="Button" value="VISIT" style="width: 200px; height: 40px; margin-left: 45px; background-color: black; border-color: black; color: white;">
+      </div>
+	</div>
+	<div class="box4"><h1 style="margin-top: 40px;">Still Unsure?</h1>
+		<p style="font-size: 20px">Answer some simple questions and we’ll do the rest.</p>
+		<br><br>
+		<input type="button" name="Button" value="FIND YOUR PASS" style="width: 200px; height: 40px; background-color: #AE3535; border-color: #AE3535; color: white;">
+	</div>
+	<div class="box5">
+		<table>
+			<tr>
+				<td><h1 style="/*margin-left: 100px;*/ font-size: 70px;">SNATCH</h1>
+					<br><br>
+					<p style=" font-size: 20px;">A technical, advanced weightlifting movement. It's a move<br> popular with CrossFit and Olympic athletes.</p></td>
+				<td><img src="images/snatch.jpg" width="606px" height="450px"></td>
+			</tr>
+			<tr>
+				<td><img src="images/background1.jpg" width="650px" height="450px"></td>
+				<td><h1 style="/*margin-left: 100px;*/ font-size: 70px; color: #AE3535;">DEADLIFT</h1>
+					<br><br>
+					<p style="/*margin-left: 100px;*/ font-size: 20px;"> A weight training exercise in which a loaded barbell or bar is lifted off the ground to the level of the hips, torso perpendicular to the floor, before being placed back on the ground.</p></td>
+			</tr>
+			<tr>
+				<td><h1 style=" font-size: 70px; color: #AE3535;">CROSSFIT</h1>
+					<br><br>
+					<p style=" font-size: 20px;"> CrossFit is a strength and conditioning workout that is made up of functional movement performed at a high intensity level.</p></td>
+				<td><img src="images/background2.jpg" width="606px" height="450px"></td>
+			</tr>
+			<tr>
+				<td><img src="images/cardio.jpg" width="650px" height="450px"></td>
+				<td><h1 style="/*margin-left: 100px;*/ font-size: 70px;">CARDIO</h1>
+					<br><br>
+					<p style="/*margin-left: 100px;*/ font-size: 20px;"> Any type of exercise that gets your heart rate up and keeps it up for a prolonged period of time.</p></td>
+			</tr>
+		</table>
+		</div>
+	<div class="box6"><h1 style="margin-top: 40px;">Stay Updated</h1>
+		<p>Sign up to get a regular dose of fitness news, updates and exclusive offers.</p>
+		<br><br>
+		<input type="email" name="email" placeholder="Enter email address " required pattern="[A-Z a-z]{5}"x style="width: 300px; height: 30px;"><input type="button" name="Button" value="Subscribe" style="width: 100px; height: 30px; background-color: #AE3535; border-color: transparent; color: white;">
+	</div>
+	<div class="box7">
+		<table>
+		<tr>
+			<td style="width: 20%; padding-left: 50px; color: white;">
+				<ul>
+					<li><h1>Locations</h1></li><br>
+					<li><a href="#">Gyms in Delhi</a></li>
+					<li><a href="#">Gyms in Mumbai</a></li>
+					<li><a href="#">Gyms in Gurgaon</a></li>
+					<li><a href="#">Gyms in Noida</a></li>
+					<li><a href="#">Gyms in Pune</a></li>
+					<li><a href="#">Gyms in Dehradun</a></li><br>
+				</ul>
+			</td>
+			<td style="width: 20%; color: white;">
+				<ul>
+				    <li><h1>About</h1></li>
+				    <li><a href="#">Become a member</a></li>
+				    <li><a href="#">Get a Free pass</a></li>
+				    <li><a href="#">Services</a></li>
+				    <li><a href="#">Classes</a></li>
+				    <li><a href="#">Contact Us</a></li>
+				    <li><a href="#">Careers</a></li>
+				    <li><a href="#">Privacy Policy</a></li>
+				    <li><a href="#">Terms And Conditions</a></li>
+			    </ul>
+		    </td>
+			<td style="width: 20%; color: white;"><ul>
+				<li><h1>Personal Training</h1></li>
+				<li><p>Train where you're most comfortable</p></li><br>
+				<li><input type="button" name="Button" value="Learn More" style="width: 100px; height: 40px; background-color: transparent; border-color: white; color: white;"></li><br><br><br><br>
+			</ul>
+			</td>
+			<td style="width: 20%;"><ul>
+				<li>
+					<h3 class="navbar"><img src="images/evolutionicon3.jpg" width="70px" height="70px;"><font style="margin-top: 15px; color: white;">Evolution<br>Fitness</font></h3><br>
+					<!-- <h3 style="color: black;"><img src="images/evolutionicon2.jpeg" width="50px" height="50px">&nbsp;&nbsp;Evolution<br>Fitness</h3></li><br> -->
+				<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a>
+				<a href="https://twitter.com/i/flow/login"><i class="fab fa-twitter-square fa-2x"></i></a>
+				<a href="https://www.instagram.com/"><i class="fab fa-instagram-square fa-2x"></i></a>
+				<a href="https://www.linkedin.com/home"><i class="fab fa-linkedin fa-2x"></i></a>
+				<a href="https://www.youtube.com/?themeRefresh=1"><i class="fab fa-youtube-square fa-2x"></i></a></li><br><br><br><br>
+			</ul>
+			</td>	
+		</tr>
+	    </table>
+    </div>
+    <div class="box8"><i class="far fa-copyright" style="color: white;">&nbsp;&nbsp;All rights reserved. 2023 Gaurav Chamoli</i> <a href="#top" style="color: white; float: right;"><i class="fad fa-arrow-square-up fa-2x"></i></a></div>
+
+
+</body>
+</html>
